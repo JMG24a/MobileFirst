@@ -1,0 +1,77 @@
+:root{
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --grey: #bababa;
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Section Header*/
+header{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(208.83deg, var(--black) 16.69%, var(--bitcoin-orange) 100% );
+}
+header picture{
+    display: flex;
+    justify-content: center;
+}
+header picture img{
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+    margin-top: 28px;
+    padding: 28px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color:var(--just-white);
+}
+header p{
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--off-white);
+}
+header a{
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: calc(50% - 110px);
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--black);
+    border-radius: 5px;
+    background-color: var(--off-white);
+    box-shadow: 1px 4px 2px  rgba(89, 73, 30, 0.16);
+
+}
+header a span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    background-image: url("../Assets/icons/down-arrow.svg");
+}
+/*Section Main*/
+
+
