@@ -21,7 +21,7 @@ html{
 header{
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 88vh;
     background: linear-gradient(208.83deg, var(--black) 16.69%, var(--bitcoin-orange) 100% );
 }
 header picture{
@@ -37,7 +37,7 @@ h1{
     padding: 28px;
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: 2.6rem;
+    line-height: 2.5rem;
     color:var(--just-white);
 }
 header p{
@@ -66,12 +66,60 @@ header a{
     box-shadow: 1px 4px 2px  rgba(89, 73, 30, 0.16);
 
 }
-header a span{
+header a i{
     display: inline-block;
     width: 13px;
     height: 8px;
     background-image: url("../Assets/icons/down-arrow.svg");
 }
 /*Section Main*/
+main{
+    width: 100%;
+    background-color: var(--off-white);
+}
+
+main img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: calc(50% - 150px);
+    margin-top: -250px;
+}
+main section h2{
+    margin-top: 320px;
+    padding: 0px 18px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+main p{
+    margin-top: 8px;
+    padding: 28px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(111, 110, 110);
+}
+main .tittleMonedas{
+    margin-top: 3px;
+    padding: 0px 18px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--bitcoin-orange);
+}
+main .containerMonedas{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+main .containerMonedas .leftContainerMonedas{
+    grid-column: span1;
+}
+main .containerMonedas .leftContainerMonedas{
+    grid-column: 1;
+}
+
 
 
