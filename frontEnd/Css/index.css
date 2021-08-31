@@ -99,10 +99,10 @@ main p{
     text-align: center;
     font-size: 1.4rem;
     font-weight: 500;
-    color: rgb(111, 110, 110);
+    color: rgb(99, 99, 99);
 }
 main .tittleMonedas{
-    margin-top: 3px;
+    margin: 10px 0px 20px;
     padding: 0px 18px;
     text-align: center;
     font-size: 1.8rem;
@@ -110,16 +110,204 @@ main .tittleMonedas{
     line-height: 1.2;
     color: var(--bitcoin-orange);
 }
-main .containerMonedas{
+main .containerModedas{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: repeat(2, 100px);
+   grid-template-rows: repeat(4, 50px);
+   justify-content: center;
+   align-items: center;
+   grid-column-gap: 2px;
+   grid-row-gap: 15px;
 }
-main .containerMonedas .leftContainerMonedas{
-    grid-column: span1;
+.leftContainerMonedas1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    border-radius: 15px 0px 0px 0px;
+    background-color: rgb(255, 255, 255);
 }
-main .containerMonedas .leftContainerMonedas{
-    grid-column: 1;
+.leftContainerMonedas2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    background-color: rgb(255, 255, 255);
 }
-
-
-
+.leftContainerMonedas3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    background-color: rgb(255, 255, 255);
+}
+.leftContainerMonedas4{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.rightContainerMonedas1{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    border-radius: 0px 15px 0px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.rightContainerMonedas2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    background-color: rgb(255, 255, 255);
+}
+.rightContainerMonedas3{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    background-color: rgb(255, 255, 255);
+}
+.rightContainerMonedas4{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+    border-radius: 0px 0px 15px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.tendenciaDown{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../Assets/icons/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.tendenciaUp{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../Assets/icons/trending-up.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.actualizacionMonedas{
+    margin-top: 30px;
+}
+.actualizacionMonedas p{
+    text-align: center;
+    margin: 15px 65px;
+    padding:  5px  15px;
+    font-size: 1.4;
+    font-weight: bold;
+    color: gray;
+    border-radius: 10px;
+    background-color: var(--soft-orange);
+}
+.actualizacionMonedas p span{
+    font-size: 1.4;
+    font-weight: 500;
+    color: var(--black);
+}
+main .tittleComiciones{
+    margin: 10px 0px 20px;
+    padding: 0px 18px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--secondary-blue);
+}
+main .containerComiciones{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(4, 50px);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 2px;
+    grid-row-gap: 15px;
+ }
+ .leftContainerComiciones1{
+     grid-row: 1/2;
+     grid-column: 1/2;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     border-radius: 15px 0px 0px 0px;
+     background-color: rgb(255, 255, 255);
+ }
+ .leftContainerComiciones2{
+     grid-row: 2/3;
+     grid-column: 1/2;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     background-color: rgb(255, 255, 255);
+ }
+ .leftContainerComiciones3{
+     grid-row: 3/4;
+     grid-column: 1/2;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     background-color: rgb(255, 255, 255);
+ }
+ .leftContainerComiciones4{
+     grid-row: 4/5;
+     grid-column: 1/2;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     border-radius: 0px 0px 0px 15px;
+     background-color: rgb(255, 255, 255);
+ }
+ .rightContainerComiciones1{
+     grid-row: 1/2;
+     grid-column: 2/3;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     border-radius: 0px 15px 0px 0px;
+     background-color: rgb(255, 255, 255);
+ }
+ .rightContainerComiciones2{
+     grid-row: 2/3;
+     grid-column: 2/3;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     background-color: rgb(255, 255, 255);
+ }
+ .rightContainerComiciones3{
+     grid-row: 3/4;
+     grid-column: 2/3;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     background-color: rgb(255, 255, 255);
+ }
+ .rightContainerComiciones4{
+     grid-row: 4/5;
+     grid-column: 2/3;
+     padding: 20px 0px;
+     font-size: 1.8rem;
+     border-radius: 0px 0px 15px 0px;
+     background-color: rgb(255, 255, 255);
+ }
+ .actualizacionComiciones{
+    margin-top: 30px;
+}
+.actualizacionComiciones p{
+    text-align: center;
+    margin: 15px 65px;
+    padding:  5px  15px;
+    font-size: 1.4;
+    font-weight: bold;
+    color: gray;
+    border-radius: 10px;
+    background-color: var(--soft-blue);
+}
+.actualizacionComiciones p span{
+    font-size: 1.4;
+    font-weight: 500;
+    color: var(--black);
+}
